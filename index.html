@@ -4,19 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Contador</title>
 </head>
 <body>
-    <h1>Projeto: Contador</h1> 
-    <p>Este é o meu primeiro projeto Javascript pela DIO - Bootcamp TQI Fullstack Developer </p>
+    
+    <header class="post_title">
+        <h1>Projeto: Contador</h1> 
+    </header>
 
     <!-- CONTAINER  -->
+    <section class="post">
+        <p>Este é o meu primeiro projeto Javascript pela DIO <br> Bootcamp TQI Fullstack Developer </p>
+    
+    </section>
+    
     <div id="contador">
         <!-- BOTOÕES: ADICIONAR / SUBTRAIR -->
         <button name="subtrair" onclick="decrementar()">-</button>
+        <span id="atualNumero">0</span>
         <button name="adicionar" onclick="incrementar()">+</button>
     </div>
+
+    <section class="post">
+        <p>Nesta versão do projeto, o Contador inicializa em zero e na cor "Preta".</p>
+        
+        <p>Quando o contador for incrementado, e sendo um número positivo a cor do texto será "Azul".</p>
+        
+        <p>Ao contrário quando for decrementado, e sendo negativo será "Vermelho".</p>
+
+        <p class="textoADireita">Feito por Francisco Sousa.</p>
+        
+    </section>
+    
+
     <script src="assets/js/scripts.js"></script>
 
 </body>

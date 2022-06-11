@@ -1,2 +1,68 @@
 /* IMPORTAÇÃO FONTE GOOGLE */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(177, 225, 255);
+}
+
+h1{
+    color: brown;
+     
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid lightcoral;
+    background-color: rgb(241, 214, 214);
+    color: lightcoral;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#contador {
+    display: flex;
+}
+
+#atualNumero {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
+/* TITULO DO POST */
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    
+}
+
+
+/* BLOCO DE CONTEÚDO - BORDA ARREDONDADA */
+.post{
+    width: 400px;
+    text-align: justify;
+    margin: 15px;
+    background: #FFF;
+    padding: 10px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+.textoADireita{
+    text-align: right;
+    color: maroon;
+    font-weight: 700;
+}
